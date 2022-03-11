@@ -4,7 +4,7 @@ import * as THREE from 'three';
 
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
-let scene = new THREE.Scene(),
+const scene = new THREE.Scene(),
     renderer = new THREE.WebGLRenderer(),
     geometry = new THREE.SphereGeometry(1, 64, 64),
     material = new THREE.MeshBasicMaterial({ color: 0xa2a9b0 }),
