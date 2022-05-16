@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function()
 
   function animate()
   {
-      mesh.rotation.x += 0.03
+      mesh.rotation.x += 0.02
       mesh.rotation.y += 0.00
       mesh.rotation.z += 0.00
     requestAnimationFrame(animate)
