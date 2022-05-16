@@ -25,7 +25,14 @@ canvas {
 
 h1 {
     text-align: center;
-    margin: 80px 0;
+    margin: 100px 0;
+    font-family: 'Anaheim', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Anaheim', sans-serif;
 }
 
 .mynav ul {
@@ -65,4 +72,4 @@ h1 {
 .mynav a,
 .target {
     transition: all .35s ease-in-out;
-}
+}     
