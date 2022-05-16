@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function()
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,
-    metalness:0.4,
-    roughness:0.6,
+    metalness:0.1,
+    roughness:0.9,
   })
  // geometry shape 
   var geometry = new THREE.CylinderGeometry(2, 2, 0.2, 40);
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function()
 
   function animate()
   {
-      mesh.rotation.x += 0.01
+      mesh.rotation.x += 0.008
       mesh.rotation.y += 0.00
       mesh.rotation.z += 0.00
     requestAnimationFrame(animate)
