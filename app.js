@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function()
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,
-    metalness:0.8,
-    roughness:0.5,
+    metalness:0.4,
+    roughness:0.6,
   })
  // geometry shape 
   var geometry = new THREE.CylinderGeometry(2, 2, 0.2, 40);
