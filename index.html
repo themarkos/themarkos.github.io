@@ -7,71 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giga Chad Coin</title>
     <link rel="icon" type="favicon.svg" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
 </head>
-<style>
-    body {
-        background: #000;
-        color: #fff;
-        padding: 0;
-        margin: 0;
-        font-family: 'Open Sans', Arial, sans-serif;
-        overflow-x: hidden;
-    }
-
-    canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-
-    .text-white {
-        position: absolute;
-        top: 63%;
-        left: 50%;
-        z-index: 11;
-        transition: unset;
-        transform: translateX(-50%) translateY(-50%);
-    }
-
-    h1 {
-        text-align: center;
-        margin: 80px 0;
-    }
-
-    .mynav ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        list-style-type: none;
-        padding: 0;
-        text-align: center;
-    }
-
-    .mynav li:not(:last-child) {
-        margin-right: 20px;
-    }
-
-    .mynav a {
-        display: block;
-        font-size: 20px;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 7px 15px;
-    }
-
-    .target {
-        position: absolute;
-        border-bottom: 4px solid transparent;
-        z-index: -1;
-        transform: translateX(-60px);
-    }
-
-    .mynav a,
-    .target {
-        transition: all .35s ease-in-out;
-    }
-</style>
 
 <body>
     <section>
@@ -82,22 +19,22 @@
             <h1>The Official Stock Of Giga Chad LLC</h1>
             <nav class="mynav">
                 <ul>
-                    <li><a href="https://gigachadcoin.com/">Coin Chart</a></li>
+                    <li><a class="btn" href="https://gigachadcoin.com/">Coin Chart</a></li>
                     <li>
-                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x3c04d65419194a6ad496a0b6a5455e5415b795eb">PancakeSwap</a>
+                        <a class="btn" href="https://pancakeswap.finance/swap?outputCurrency=0x3c04d65419194a6ad496a0b6a5455e5415b795eb">PancakeSwap</a>
                     </li>
                 </ul>
             </nav>
             <nav class="mynav">
                 <ul>
-                    <li><a href="https://gigachad.us/">Giga Chad Supplements</a></li>
+                    <li><a class="btn" href="https://gigachad.us/">Giga Chad Supplements</a></li>
                 </ul>
             </nav>
             <nav class="mynav">
                 <ul>
-                    <li><a href="https://www.instagram.com/gigachadcoin/">Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@gigachadsupplements">Tik Tok</a></li>
-                    <li><a href="https://t.me/+Oqqv5OQjVehiNmZh">Telegram</a></li>
+                    <li><a class="btn" href="https://www.instagram.com/gigachadcoin/">Instagram</a></li>
+                    <li><a class="btn" href="https://www.tiktok.com/@gigachadsupplements">Tik Tok</a></li>
+                    <li><a class="btn" href="https://t.me/+Oqqv5OQjVehiNmZh">Telegram</a></li>
                 </ul>
             </nav>
             <span class="target"></span>
