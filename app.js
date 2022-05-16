@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function()
 
   THREE.ImageUtils.crossOrigin = '';
  // texture 
-    const texture = new THREE.TextureLoader().load( "coin1.png" );
+    const texture = new THREE.TextureLoader().load( "GC Coin Render 3.0 (1).png" );
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,
