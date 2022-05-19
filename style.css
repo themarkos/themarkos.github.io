@@ -25,7 +25,7 @@ canvas {
 
 h1 {
     text-align: center;
-    margin: 300px 0px -25px 0px;
+    margin: 200px 0px -25px 0px;
     font-family: 'Anaheim', sans-serif;
     font-size: 44px;
 }
@@ -45,14 +45,14 @@ h3 {
 }
 
 p {
-    text-align: left;
+    text-align: center;
     font-family: 'Anaheim', sans-serif;
     margin: 20px 0px 50px 0px;
     font-size: 20px;
 }
 
 .demopara {
-    line-height: 2;
+    line-height: 2.25;
 }
 
 .mynav ul {
