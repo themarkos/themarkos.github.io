@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function()
   initializeScene()
 
   // Adding ambient lighting
-  scene.add(new THREE.AmbientLight(0xffffff,0.01))
+  scene.add(new THREE.AmbientLight(0xffffff,0.3))
 
   // Left point light
   const pointLightLeft = new THREE.PointLight(0xff4422, 1)
