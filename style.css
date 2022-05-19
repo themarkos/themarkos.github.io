@@ -39,7 +39,7 @@ h2 {
 
 h3 {
     text-align: center;
-    margin: 0px 0px -30px 0px;
+    margin: 50px 0px 35px 0px;
     font-family: 'Anaheim', sans-serif;
     font-size: 25px;
 }
@@ -78,7 +78,7 @@ p {
     position: absolute;
     border-bottom: 4px solid transparent;
     z-index: -1;
-    transform: translateX(-60px);
+    transform: translateX(-1px);
 }
 
 .mynav a,
@@ -157,14 +157,9 @@ img {
     margin-right: auto;
 }
 
-.center1 {
+.center {
     margin: 0 auto;
-    width: 430px;
-    display: block
-
-.center2 {
-    margin: 0 auto;
-    width: 180px;
+    width: 300px;
     display: block;
 }
 
@@ -226,7 +221,7 @@ img {
         border-radius: 6px;
         padding: 5px;
         position: center;
-        z-index: 0;
+        z-index: 1;
         bottom: 150%;
         left: 50%;
         margin-left: 0px;
