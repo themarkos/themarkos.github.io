@@ -165,8 +165,9 @@ img {
 
 .center2 {
     margin: 0 auto;
-    width: 250px;
+    width: 230px;
     display: block;
+}
 
 .btn {
     align-items: center;
