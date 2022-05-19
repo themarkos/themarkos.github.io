@@ -51,6 +51,13 @@ p {
     font-size: 20px;
 }
 
+p2 {
+    text-align: center;
+    font-family: 'Anaheim', sans-serif;
+    margin: 20px 0px 50px 0px;
+    font-size: 18px;
+}
+
 .demopara {
     line-height: 2.25;
 }
