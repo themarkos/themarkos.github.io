@@ -52,7 +52,7 @@ p {
 }
 
 p2 {
-    text-align: center;
+    margin: 0 auto;
     font-family: 'Anaheim', sans-serif;
     margin: 20px 0px 50px 0px;
     font-size: 18px;
