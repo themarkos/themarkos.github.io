@@ -158,10 +158,9 @@ img {
 }
 
 .center1 {
-    margin: 0 auto;
+    margin: 25px 0px 25px 0px;
     width: 430px;
-    display: block;
-}
+    display: block
 
 .center2 {
     margin: 0 auto;
