@@ -157,11 +157,16 @@ img {
     margin-right: auto;
 }
 
-.center {
+.center1 {
     margin: 0 auto;
-    width: 300px;
+    width: 450px;
     display: block;
 }
+
+.center2 {
+    margin: 0 auto;
+    width: 250px;
+    display: block;
 
 .btn {
     align-items: center;
