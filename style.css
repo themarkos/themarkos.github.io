@@ -166,7 +166,8 @@ img {
 
 .center1 {
     margin: 0 auto;
-    width: 325px;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
