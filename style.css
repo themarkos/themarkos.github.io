@@ -44,18 +44,18 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    text-align: center;
+    margin: 50px 0px 35px 0px;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 14px;
+}
+
 p {
     text-align: center;
     font-family: 'Anaheim', sans-serif;
     margin: 20px 0px 50px 0px;
     font-size: 20px;
-}
-
-p2 {
-    margin: 0 auto;
-    font-family: 'Anaheim', sans-serif;
-    margin: 20px 0px 50px 0px;
-    font-size: 14px;
 }
 
 .demopara {
