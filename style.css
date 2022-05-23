@@ -178,6 +178,10 @@ img {
     display: block;
 }
 
+.center3 {
+    border-radius: 18px;
+}
+
 .btn {
     align-items: center;
     background-color: #FCFCFD;
