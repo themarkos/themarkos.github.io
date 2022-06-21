@@ -15,58 +15,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Montserrat+Subrayada&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
 </head>
 
 <body>
     <section class="wrapper">
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-            <div id="title"></div>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title"></div>
+        <div class="text-white">
             <!-- Header -->
             <h1>Giga Chad Coin</h1>
             <h2>The Official Stock Of Giga Chad LLC</h2>
-        <nav class="mynav">
+            <nav class="mynav">
                 <ul>
-                    <li><a href="https://t.me/gigachadcoin" target="_blank">
-    <img src="Telegram Link.png" height="210" width="150"></a></li>
-                    <li><a href="https://pancakeswap.finance/swap?outputCurrency=0x3c04d65419194a6ad496a0b6a5455e5415b795eb" target="_blank">
-    <img src="PancakeSwap Logo.png" height="100" width="200"></a></li>
+                    <li>
+                        <a href="https://t.me/gigachadcoin" target="_blank">
+                            <img src="Telegram Link.png" height="210" width="150">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x3c04d65419194a6ad496a0b6a5455e5415b795eb" target="_blank">
+                            <img src="PancakeSwap Logo.png" height="100" width="200">
+                        </a>
+                    </li>
                 </ul>
             </nav>
-               
-        <h2>What is Giga Chad Coin?</h2>
-        
+
+            <div id="rubic-widget-root"></div>
+
+            <h2>What is Giga Chad Coin?</h2>
+
             <nav class="demopara">
-            <p>
-                Giga Chad Coin is the Stock paired with a supplement business Giga Chad LLC.
-                <br />
-                <b>There is a 2,100,000 supply of Giga Chad Coin and ownership is rennouced.</b>
-                <br />
-                Sales from the supplement brand rewards Giga Chad Coin to the consumers.
-                <br />
-                Profit from sales is reinvested into the coin increasing liquidity and price.
-            </p>
+                <p>
+                    Giga Chad Coin is the stock of the company GIGA CHAD LLC.
+                    <br />
+                    <b>There is a 2,100,000 supply of Giga Chad Coin and ownership is rennouced.</b>
+                    <br />
+                    GIGA CHAD LLC is focused on creating the new wave of banking that will out pace inflation.
+                    <br />
+                    Profits from income sources of GIGA CHAD LLC are reinvested into the project.
+                    <br />
+                    We are focused on creating low overhead businesses that help with the growth of the cryptocurrency.
+                    <br />
+                </p>
             </nav>
-        
-             <nav class="mynav">
+
+            <h2>Businesses List</h2>
+
+            <nav class="mynav">
                 <ul>
-                    <li><a class="btn" href="https://gigachad.us/">Giga Chad Supplements &#128138;</a></li>
+                    <li>
+                        <a href="https://gigachad.us/" target="_blank">
+                            <img class="center3" img src="Giga Chad Supplements Logo.jpg" height="90" width="320">
+                        </a>
+                    </li>
                 </ul>
             </nav>
-        
- <nav class="mynav">
+
+            <nav class="mynav">
                 <h3>How To Add Giga Chad Coin On Trust Wallet?</h3>
                 <video class="center1" width="400" height="250" controls preload="metadata">
                     <source src="Trust Wallet Tutorial 2.mp4#t=1">
                 </video>
-                <img class="center2" img src="Giga-Chad-Coin-QR-Code.jpg" alt="QR Code" width="180" height="180">
+                <img class="center2" img src="Giga-Chad-Coin-QR-Code.jpg" alt="QR Code" width="235" height="235">
                 <h4>0x3C04D65419194a6aD496a0b6a5455E5415B795eb</h4>
             </nav>
 
             <nav class="mynav">
                 <ul>
-                     <li>
+                    <li>
                         <a href="https://www.instagram.com/gigachadcoin/" target="_blank">
                             <img src="Instagram Logo.png" height="65" width="65">
                         </a>
@@ -81,9 +100,41 @@
             <span class="target"></span>
         </div>
         <canvas></canvas>
-        </section>
-        <script src="https://threejs.org/build/three.min.js" charset="utf-8"></script>
-        <script src="app.js" charset="utf-8"></script>
+    </section>
+
+    <script src="https://threejs.org/build/three.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+    <script defer type="text/javascript">
+        // describe widget configuration and saving to a global variable for future use
+        var configuration = {
+            from: 'BUSD',
+            to: '0x3C04D65419194a6aD496a0b6a5455E5415B795eb',
+            fromChain: 'BSC',
+            toChain: 'BSC',
+            amount: 1,
+            iframe: 'vertical',
+            hideSelectionFrom: false,
+            hideSelectionTo: true,
+            theme: 'light',
+            background: '#2d2525',
+            injectTokens: {
+                'bsc': [
+                    '0x3C04D65419194a6aD496a0b6a5455E5415B795eb'
+                ]
+            },
+            slippagePercent: {
+                instantTrades: 5,
+                crossChain: 7
+            }
+        }
+
+        // prevent accidental changes to the object, for example, when re-creating a widget for another theme
+        Object.freeze(configuration);
+
+        // create widget
+        rubicWidget.init(configuration);
+    </script>
 </body>
 
 </html>
